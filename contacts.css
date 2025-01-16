@@ -1,0 +1,110 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-family: owners;
+    font-size: 34px;
+    color: #C4C7C0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: diatype;
+    src: url(fonts/ABCDiatypeMono-Regular-Trial.woff2);
+}
+
+@font-face {
+    font-family: owners;
+    src: url(fonts/Owners-MediumBeta.woff2);
+}
+
+.navbar a {
+    font-family: diatype;
+    font-weight: 400;
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #C4C7C0;
+    margin-left: 40px;
+    letter-spacing: 1px;
+}
+
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+
+
+p {
+    color: white;
+    font-family: diatype;
+    font-size: 20px;
+}
+
+.numbers {
+    padding-left: 200px;
+    padding-top: 500px;
+    position: absolute;
+}
+
+.emails {
+    padding-left: 200px;
+    padding-top: 300px;
+    position: absolute;
+}
+
+#address {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 700px;
+}
+
+@media screen and (max-width: 1536px) {
+    .numbers {
+        padding-left: 170px;
+        padding-top: 400px;
+        position: absolute;
+    }
+    
+    .emails {
+        padding-left: 170px;
+        padding-top: 200px;
+        position: absolute;
+    }
+    
+    #address {
+        position: absolute;
+        padding-left: 170px;
+        padding-top: 600px;
+    }
+}

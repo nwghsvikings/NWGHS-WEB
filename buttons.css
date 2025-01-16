@@ -1,0 +1,125 @@
+button {
+    color: white;
+    text-decoration: none;
+    font-family: diatype;
+    background-color: #000!important;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+}
+
+button:hover {
+    background-color: red!important;
+}
+
+#coaches {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+#capt {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 500px;
+}
+#build {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 200px;
+}
+#code {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 500px;
+}
+#doco {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 200px;
+}
+
+#r, #n, #w, #b {
+    margin-left: 700px;
+}
+
+#n {
+    margin-top: 300px;
+}
+
+#r {
+    margin-top: 250px;
+}
+
+#w {
+    margin-top: 550px;
+}
+
+#b {
+    margin-top: 580px;
+}
+
+#t, #bh, #tc, #ra, #d, #cd, #m, #l, #lo {
+    margin-left: 1000px;
+}
+
+#t {
+    margin-top: 250px;
+}
+
+#bh {
+    margin-top: 280px;
+}
+
+#tc {
+    margin-top: 310px;
+}
+
+#ra {
+    margin-top: 340px;
+}
+
+#d {
+    margin-top: 370px;
+}
+
+#cd {
+    margin-top: 400px;
+}
+
+#m {
+    margin-top: 550px;
+}
+
+#l {
+    margin-top: 580px;
+}
+
+#lo {
+    margin-top: 610px;
+}
+
+#s, #c, #v, #sr {
+    margin-left: 1300px;
+}
+
+#s {
+    margin-top: 250px;
+}
+
+#c {
+    margin-top: 280px;
+}
+
+#v {
+    margin-top: 310px;
+}
+
+#sr {
+    margin-top: 340px;
+}
+
+#y {
+    margin-left: 1300px;
+    margin-top: 600px;
+}

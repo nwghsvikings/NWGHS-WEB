@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-family: owners;
+    font-size: 34px;
+    color: #C4C7C0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: diatype;
+    src: url(fonts/ABCDiatypeMono-Regular-Trial.woff2);
+}
+
+@font-face {
+    font-family: owners;
+    src: url(fonts/Owners-MediumBeta.woff2);
+}
+
+.navbar a {
+    font-family: diatype;
+    font-weight: 400;
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #C4C7C0;
+    margin-left: 40px;
+    letter-spacing: 1px;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+body, html {
+    height: 100%;
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: owners;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#teamimg {
+    margin-left: 1000px;
+    position: absolute;
+    margin-top: 300px;
+
+}
+
+#introtext {
+    width: 700px;
+    font-family: diatype;
+    margin-left: 100px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+#introtext2 {
+    width: 700px;
+    font-family: diatype;
+    margin-left: 100px;
+    margin-top: 475px;
+    position: absolute;
+}
+
+#introtext3 {
+    width: 700px;
+    font-family: diatype;
+    margin-left: 100px;
+    margin-top: 650px;
+    position: absolute;
+}
+
+#container1 {
+    height: 200px;
+}
+
+@media screen and (max-width:1536px) {
+    #teamimg {
+        margin-left: 900px;
+        position: absolute;
+        margin-top: 250px;
+        width: 500px;
+    
+    }
+    
+    #introtext {
+        width: 700px;
+        font-family: diatype;
+        margin-left: 100px;
+        margin-top: 200px;
+        position: absolute;
+    }
+    
+    #introtext2 {
+        width: 700px;
+        font-family: diatype;
+        margin-left: 100px;
+        margin-top: 375px;
+        position: absolute;
+    }
+    
+    #introtext3 {
+        width: 700px;
+        font-family: diatype;
+        margin-left: 100px;
+        margin-top: 550px;
+        position: absolute;
+    }
+}
