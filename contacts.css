@@ -89,6 +89,13 @@ p {
     padding-top: 700px;
 }
 
+#insta {
+    margin-left: 800px;
+    margin-top: 350px;
+    width: 100px;
+    height: 100px;
+}
+
 @media screen and (max-width: 1536px) {
     .numbers {
         padding-left: 170px;
